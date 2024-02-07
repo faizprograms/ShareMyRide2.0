@@ -67,7 +67,9 @@ app.use(session({
   })
 }));
 
+console.log("ss")
 // Passport middleware
+
 app.use(passport.initialize());
 app.use(passport.session());
 
