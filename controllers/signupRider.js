@@ -32,12 +32,12 @@ async function post(req, res) {
     });
     return
   }
-  if (String(req.body.phoneno).length != 10) {
-    res.render("signupRider", {
-      msg: "Invalid Phone Number"
-    });
-    return
-  }
+  // if (String(req.body.phoneno).length != 10) {
+  //   res.render("signupRider", {
+  //     msg: "Invalid Phone Number"
+  //   });
+  //   return
+  // }
   if (String(req.body.whatsappno).length != 10) {
     res.render("signupRider", {
       msg: "Invalid Whatsapp Number"
